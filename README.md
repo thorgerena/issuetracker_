@@ -8,7 +8,8 @@ Eclipse, Tomcat, BrowserRun first Client.java to create user with admin rights.
 
 ## Built With
 
-* [Spring] - The spring framework used* [Maven](https://maven.apache.org/) - Dependency Management
+* [Spring] - The spring framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
 
 ## Authors
 
