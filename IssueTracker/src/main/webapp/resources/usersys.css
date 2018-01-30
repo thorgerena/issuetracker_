@@ -1,0 +1,378 @@
+body {
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+	font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	position: relative;
+	color: #343a40;
+	background-color: #f8f9fa;
+	padding-bottom: 12%;
+	padding-top: 100px;
+}
+
+textarea {
+	width: 95%;
+	margin-top: 10px;
+}
+
+.homepage {
+	background-color: #f8f9fa;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, button, .login-button, p {
+	text-align: center;
+}
+
+.login-button {
+	padding: 5px;
+}
+
+.center {
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+
+p {
+	line-height: 1.5;
+	word-wrap: break-word;
+}
+
+@media ( min-width : 768px) {
+	p {
+		font-size: 18px;
+		line-height: 1.6;
+	}
+}
+
+a {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+	color: #1d9b6c;
+}
+
+::-moz-selection {
+	background: #fcfcfc;
+	background: rgba(255, 255, 255, 0.2);
+	text-shadow: none;
+}
+
+::selection {
+	background: #fcfcfc;
+	background: rgba(255, 255, 255, 0.2);
+	text-shadow: none;
+}
+
+img::selection {
+	background: transparent;
+}
+
+img::-moz-selection {
+	background: transparent;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#add-user {
+	margin: 0 auto;
+	border: rgba(240, 220, 180, 0.5);
+}
+
+.list-user {
+	border: 3px solid #2ECC40;
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.options h4 {
+	border: 3px solid #2ECC40;
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+}
+
+.options a {
+	border: 2px smokeywhite;
+	border-radius: 5px;
+}
+
+.list-user p {
+	color: white;
+}
+
+#home {
+	text-align: left;
+}
+
+.footer {
+	background: #061D25;
+	padding: 10px 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+}
+.footer a {
+	color: #70726F;
+	font-size: 20px;
+	border-right: 1px solid #70726F;
+	transition: all .5s ease;
+}
+
+.footer a:first-child {
+	border-left: 1px solid #70726F;
+}
+
+.footer a:hover {
+	color: white;
+}
+
+.user-card {
+	margin: auto;
+	background-color: white;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border-color: light-gray;
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+}
+
+.assign-card {
+	padding: 5px 15px;
+	max-width: 30%;
+}
+
+ul.nav.navbar-nav li a:hover {
+	color: #ff0000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #f8f9fa;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+
+.login-div {
+	color: #f8f9fa;
+	width: 40%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 10px 20px;
+	background-color: #FF8A00;
+	border-radius: 5px;
+	border-style: hidden;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.login-div .showerror {
+	color: red;
+}
+
+.login-div .form-group.select {
+	text-align: center;
+}
+
+select {
+	border-radius: 5px;
+}
+
+select.form-control {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.issues-table table {
+	margin: 0 auto;
+	border: 1px solid black;
+	width: 50%;
+}
+
+tr {
+	background-color: white;
+	border: 1px solid black;
+}
+
+.footer {
+	background-color: #343a40;
+	color: rgba(255, 255, 255, .5);
+}
+
+.footer-text {
+	float: left;
+	padding-left: 10px;
+}
+
+.mainpic img {
+	display: block;
+	height: 220px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+@media only screen and (max-width: 920px) {
+	.login-div {
+		width: 80%;
+	}
+	.scrollbar {
+		width: 80%;
+	}
+}
+
+#issue-element {
+	margin: 3%;
+}
+
+.scrollbar {
+	margin: 0 auto;
+	height: 600px;
+	width: 500px;
+	background: #fff;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	border-style: hidden;
+	box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
+}
+
+.force-overflow {
+	min-height: 450px;
+}
+
+.scrollbar-morpheus-den::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.scrollbar-morpheus-den::-webkit-scrollbar {
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar-morpheus-den::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#30cfd0),
+		to(#330867));
+	background-image: -webkit-linear-gradient(bottom, #30cfd0 0%, #330867 100%);
+	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+#issue-updates {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: fixed;
+	word-wrap: break-word;
+}
+
+#issue-updates td, #issue-updates th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#issue-updates tr {
+	text-align: center;
+}
+
+#issue-updates tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#issue-updates tr:hover {
+	background-color: #ddd;
+}
+
+td#issueLink:hover {
+	color: white;
+	cursor: pointer;
+	background: linear-gradient(70deg, #2E455D, #6D2B36);
+}
+
+#issue-updates th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background: linear-gradient(180deg, #000000, #8E5656);
+	color: white;
+}
+
+#issue-update-table {
+	width: 100%;
+	height: 500px;
+}
+
+.user-row tr:hover {
+	cursor: pointer;
+	color: blue;
+}
+
+#issue {
+	border-style: groove;
+	border-radius: 10px;
+	width: 80%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.issue p{
+	text-align: left;
+}
+
+.row {
+	margin: 0 auto;
+	width: 95%;
+	margin-top: 20px;
+	border-style: outset;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.row h3 {
+	margin-top: 8px;
+}
+
+.row.issue-details {
+	padding: 0 5%;
+}
+
+.noauthority {
+	color: red
+}
+
+.homepage-title {
+	color: #00008B;
+}
+
+.programtitle {
+	font-size: 44px;
+}
+
+.btn:hover {
+	background: radial-gradient(#2E455D, #6D2B36);
+}
